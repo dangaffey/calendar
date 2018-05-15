@@ -10,6 +10,14 @@
 		5DD1D29F20AA665700AC409B /* calendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DD1D29520AA665600AC409B /* calendar.framework */; };
 		5DD1D2A420AA665700AC409B /* calendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD1D2A320AA665700AC409B /* calendarTests.swift */; };
 		5DD1D2A620AA665700AC409B /* calendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DD1D29820AA665600AC409B /* calendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DD1D2B720AA670D00AC409B /* WWCalendarTimeSelector.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DD1D2AF20AA670B00AC409B /* WWCalendarTimeSelector.storyboard */; };
+		5DD1D2B820AA670D00AC409B /* String+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD1D2B020AA670C00AC409B /* String+Timepiece.swift */; };
+		5DD1D2B920AA670D00AC409B /* NSDateComponents+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD1D2B120AA670C00AC409B /* NSDateComponents+Timepiece.swift */; };
+		5DD1D2BA20AA670D00AC409B /* NSCalendar+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD1D2B220AA670C00AC409B /* NSCalendar+Timepiece.swift */; };
+		5DD1D2BB20AA670D00AC409B /* NSDate+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD1D2B320AA670C00AC409B /* NSDate+Timepiece.swift */; };
+		5DD1D2BC20AA670D00AC409B /* Int+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD1D2B420AA670C00AC409B /* Int+Timepiece.swift */; };
+		5DD1D2BD20AA670D00AC409B /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD1D2B520AA670D00AC409B /* Duration.swift */; };
+		5DD1D2BE20AA670D00AC409B /* WWCalendarTimeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD1D2B620AA670D00AC409B /* WWCalendarTimeSelector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +37,14 @@
 		5DD1D29E20AA665700AC409B /* calendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DD1D2A320AA665700AC409B /* calendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendarTests.swift; sourceTree = "<group>"; };
 		5DD1D2A520AA665700AC409B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DD1D2AF20AA670B00AC409B /* WWCalendarTimeSelector.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WWCalendarTimeSelector.storyboard; sourceTree = "<group>"; };
+		5DD1D2B020AA670C00AC409B /* String+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Timepiece.swift"; sourceTree = "<group>"; };
+		5DD1D2B120AA670C00AC409B /* NSDateComponents+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDateComponents+Timepiece.swift"; sourceTree = "<group>"; };
+		5DD1D2B220AA670C00AC409B /* NSCalendar+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSCalendar+Timepiece.swift"; sourceTree = "<group>"; };
+		5DD1D2B320AA670C00AC409B /* NSDate+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Timepiece.swift"; sourceTree = "<group>"; };
+		5DD1D2B420AA670C00AC409B /* Int+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Timepiece.swift"; sourceTree = "<group>"; };
+		5DD1D2B520AA670D00AC409B /* Duration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Duration.swift; sourceTree = "<group>"; };
+		5DD1D2B620AA670D00AC409B /* WWCalendarTimeSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWCalendarTimeSelector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +87,14 @@
 		5DD1D29720AA665600AC409B /* calendar */ = {
 			isa = PBXGroup;
 			children = (
+				5DD1D2B520AA670D00AC409B /* Duration.swift */,
+				5DD1D2B420AA670C00AC409B /* Int+Timepiece.swift */,
+				5DD1D2B220AA670C00AC409B /* NSCalendar+Timepiece.swift */,
+				5DD1D2B320AA670C00AC409B /* NSDate+Timepiece.swift */,
+				5DD1D2B120AA670C00AC409B /* NSDateComponents+Timepiece.swift */,
+				5DD1D2B020AA670C00AC409B /* String+Timepiece.swift */,
+				5DD1D2AF20AA670B00AC409B /* WWCalendarTimeSelector.storyboard */,
+				5DD1D2B620AA670D00AC409B /* WWCalendarTimeSelector.swift */,
 				5DD1D29820AA665600AC409B /* calendar.h */,
 				5DD1D29920AA665600AC409B /* Info.plist */,
 			);
@@ -148,6 +172,7 @@
 				TargetAttributes = {
 					5DD1D29420AA665600AC409B = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 					5DD1D29D20AA665700AC409B = {
 						CreatedOnToolsVersion = 9.3;
@@ -177,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DD1D2B720AA670D00AC409B /* WWCalendarTimeSelector.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +220,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DD1D2BB20AA670D00AC409B /* NSDate+Timepiece.swift in Sources */,
+				5DD1D2B920AA670D00AC409B /* NSDateComponents+Timepiece.swift in Sources */,
+				5DD1D2BE20AA670D00AC409B /* WWCalendarTimeSelector.swift in Sources */,
+				5DD1D2B820AA670D00AC409B /* String+Timepiece.swift in Sources */,
+				5DD1D2BD20AA670D00AC409B /* Duration.swift in Sources */,
+				5DD1D2BC20AA670D00AC409B /* Int+Timepiece.swift in Sources */,
+				5DD1D2BA20AA670D00AC409B /* NSCalendar+Timepiece.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +372,7 @@
 		5DD1D2AA20AA665700AC409B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -356,6 +390,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.unchartedrealms.calendar;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +399,7 @@
 		5DD1D2AB20AA665700AC409B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -389,6 +425,7 @@
 		5DD1D2AD20AA665700AC409B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q88G84ZPPX;
 				INFOPLIST_FILE = calendarTests/Info.plist;
@@ -407,6 +444,7 @@
 		5DD1D2AE20AA665700AC409B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q88G84ZPPX;
 				INFOPLIST_FILE = calendarTests/Info.plist;
